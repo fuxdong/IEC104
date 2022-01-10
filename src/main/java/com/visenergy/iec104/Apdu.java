@@ -94,7 +94,7 @@ public class Apdu {
     }
 
     public int encode(byte[] buffer) throws IOException {
-
+        System.out.println();
         buffer[0] = 0x68;
 
         int length = 4;
